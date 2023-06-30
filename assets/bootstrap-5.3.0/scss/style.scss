@@ -1,0 +1,26 @@
+@import "./bootstrap-overrides";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+  .img-nav{
+    width: 40px;
+  }
+
+  .img-avatar{
+    width: 25px;
+    
+  }
+
+  .card-info{
+    color: rgb(148, 148, 148);
+    font-size: 0.9em;
+  }
+  .my-card-body{
+    height: 230px;
+  }
+

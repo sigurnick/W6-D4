@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- --------------------Header-------------------- -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/img/logo.svg" alt=""
+          /></a>
+          <div id="right-nav">
+            <!-- menu profile icons -->
+
+            <i
+              class="img-nav bi bi-bell rounded rounded-5 bg-secondary-subtle p-2 m-1"
+            ></i>
+            <img
+              class="img-nav rounded rounded-5 m-1"
+              src="assets/img/avatar-1.jpg"
+              alt="avatar"
+            />
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- -----------------------------Dropdowns grup------------------- -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- dropdown 1 -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Browse
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- dropdown 2 -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Landings
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- dropdown 3 -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- dropdown 4 -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- --------------------Main-------------------- -->
+    <main>
+      <!-- ---------Hero---------- -->
+      <div class="container-fluid bg-info" id="hero-container">
+        <div class="row">
+          <!-- --Hero text -->
+          <div class="col col-12 col-lg-8">
+            <h1 class="fw-bold text-light">Welcome Web Students!</h1>
+            <p class="text-light">
+              Hand-picked instructor and expertly crafted courses, <br />
+              designed for the modern students and entrepreneur.
+            </p>
+            <button class="btn btn-success">Browse Courses</button>
+            <button class="btn btn-secondary">Are You Instructor?</button>
+          </div>
+
+          <!-- Hero img -->
+          <div class="col d-flex justify-content-center">
+            <img class="w-75 mt-3" src="assets/img/hero-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--------- info ------------>
+      <div class="container mt-4">
+        <!-- --online courses -->
+        <div class="row">
+          <div class="col col-2 d-flex justify-content-end align-items-center">
+            <i
+              class="bi bi-camera-video bg-body-secondary px-2 py-1 rounded rounded-5"
+            ></i>
+          </div>
+
+          <div
+            class="col col-10 d-flex flex-column align-items-start justify-content-center"
+          >
+            <h6 class="fw-bold m-0">30,000 online courses</h6>
+            <p class="fs-6 fw-light m-0">Enjoi a variety of fresh topics</p>
+          </div>
+        </div>
+
+        <!-- instruction -->
+        <div class="row mt-3">
+          <div class="col col-2 d-flex justify-content-end align-items-center">
+            <i
+              class="bi bi-people bg-body-secondary px-2 py-1 rounded rounded-5"
+            ></i>
+          </div>
+
+          <div
+            class="col col-10 d-flex flex-column align-items-start justify-content-center"
+          >
+            <h6 class="fw-bold m-0">Expert instruction</h6>
+            <p class="fs-6 fw-light m-0">Find the right instructior for you</p>
+          </div>
+        </div>
+
+        <!-- acces -->
+        <div class="row mt-3 mb-4">
+          <div class="col col-2 d-flex justify-content-end align-items-center">
+            <i
+              class="bi bi-clock bg-body-secondary px-2 py-1 rounded rounded-5"
+            ></i>
+          </div>
+
+          <div
+            class="col col-10 d-flex flex-column align-items-start justify-content-center"
+          >
+            <h6 class="fw-bold m-0">Lifetime acces</h6>
+            <p class="fs-6 fw-light m-0">Learn on your schedule</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------Racommanded------------ -->
+      <div>
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col col-6 col-lg-3">
+              <!-- card 1 -->
+              <div class="card">
+                <img
+                  src="assets/img/course-graphql.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body my-card-body">
+                  <div class="card-text d-flex flex-column justify-content-between align-items-start">
+                  <h5 class="card-title">GraphQL for begginers</h5>
+                  <div>
+                    <i class="bi bi-clock"></i> <span class="card-info">2h 40m</span>
+                    <i class="bi bi-reception-4"></i> <span class="card-info">Advance</span>
+                  </div>
+
+                  <div class="star-score">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class=""> (1,500)</span>
+                  </div>
+
+                  <div class="price fs-6 fw-bold"> $500 <span class="real-price">$600</span></div>
+                  
+                </div>
+
+                <div class="card-author d-flex justify-content-between align-items-center">
+                  <img class="img-avatar rounded rounded-5" src="assets/img/avatar-2.jpg" alt="">
+                  <div class="card-info">Brooklyn Simmons</div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+
+              </div>
+              </div>
+            </div>
+
+            <div class="col col-6 col-lg-3">
+              <!-- card 2 -->
+              <div class="card">
+                <img
+                  src="assets/img/course-javascript.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body my-card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <!-- card 3 -->
+              <div class="card d-none d-lg-inline col-lg-3">
+                <img
+                  src="assets/img/course-node.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <!-- card 4 -->
+
+              <div class="card d-none d-lg-inline col-lg-3">
+                <img
+                  src="assets/img/course-laravel.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
